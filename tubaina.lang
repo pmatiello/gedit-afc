@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="Tubaina" version="1.0" _section="Markup" mimetypes="text/plain">
+
+	<syntax-item _name = "Chunk" style = "Keyword">
+		<start-regex>[\t]*\[</start-regex>
+		<end-regex>[\t]*\]</end-regex>
+	</syntax-item>
+
+	<string _name="Fixed Width String" style="Preprocessor" end-at-line-end="FALSE">
+		<start-regex>%%</start-regex>
+		<end-regex>%%</end-regex>
+	</string>
+
+	<string _name="Bold String" style="Data Type" end-at-line-end="FALSE">
+		<start-regex>\*\*</start-regex>
+		<end-regex>\*\*</end-regex>
+	</string>
+	
+	<string _name="Italic String" style="String" end-at-line-end="FALSE">
+		<start-regex>::</start-regex>
+		<end-regex>::</end-regex>
+	</string>
+
+	<string _name="Underline String" style="Comment" end-at-line-end="FALSE">
+		<start-regex>__</start-regex>
+		<end-regex>__</end-regex>
+	</string>
+	
+</language>

@@ -1,0 +1,12 @@
+gedit-afc
+Syntax highlighting for Tubaina's AFC format at gedit
+--------------------------------------------------------------------------------
+
+INSTALLING ---------------------------------------------------------------------
+
+First, place the tubaina.lang file at:
+	~/.local/share/gtksourceview-2.0/language-specs.
+
+Then start (or restart) gedit.
+
+An entry for 'Tubaina' will be placed at: View -> Highlight Mode -> Markup.
