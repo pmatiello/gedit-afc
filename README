@@ -7,6 +7,12 @@ INSTALLING ---------------------------------------------------------------------
 First, place the tubaina.lang file at:
 	~/.local/share/gtksourceview-2.0/language-specs.
 
+Or in newer systems you might have to use:
+	~/.local/share/gtksourceview-3.0/language-specs.
+
+Or even directly under the folder bellow, to enable it for all users:
+	/usr/share/gtksourceview-3.0/language-specs
+
 Then start (or restart) gedit.
 
 An entry for 'Tubaina' will be placed at: View -> Highlight Mode -> Markup.
